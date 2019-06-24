@@ -1,6 +1,9 @@
 // Home Content
 
 .home {
+ .header{
+   .image;
+ }
 
   .intro {
 
@@ -57,9 +60,20 @@
         margin-bottom: 26px;
       }
 
-      .btn {
+      .btn{
+        background-color: black;
+        color: white;
+        border-radius: 4px;
+        border-color: black;
+        font-weight: bold;
+        .button(@width:60px, @height:25px);
       }
     }
+      .btn:hover{
+      background-color: white;
+      color: black;
+    }
+
 
     .walk-img {
       width: 46%;
