@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+The difference between an adaptive website and a fully responsive one is that adaptive web design uses distinct layouts for multiple screen sizes, the layout largely depends on the screen size being used. Responsive web design adapts to the size of the screen no matter what the target device screen size is.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+To be mobile first means you will design and code for a mobile device first, and expand layout or features as you gain more screen space towards desktop. To be desktop first means you're going down to smaller resolutions, which includes hiding and wrapping elements while supporting original features. 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+Font-size: 62.5% in the html tag when using rem units will make 1 rem, and that equats to 10px.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is a great tool to use which helps increase your productivity and decrease the amount of code you have to write in a project. Preproccenssing includes the use of different programming language that still supports classic CSS. For example, the @ symbol (a variable in LESS) which allows developers to hold onto important values (like font colors) and re-use it within CSS.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept in preprocessing is the use of variables in LESS, it's useful as it saves time. The concept that gives me the most trouble is the use of parametric mixins, simply because I have yet to fully grasp the concept and use of it.
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -94,23 +105,23 @@ _You will know everything is working properly when you see the styles enabled fo
 
 ### Home Page - Desktop HTML & LESS
 
-* [ ] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
+* [ x] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
 
-* [ ] Add a viewport meta tag to the head of your index.html page
+* [ x] Add a viewport meta tag to the head of your index.html page
 
-* [ ] [Review the provided home desktop design file](design-files/home-desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
+* [ x] [Review the provided home desktop design file](design-files/home-desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
 
-* [ ] Navigation Styles: Use the `navigation.less` file for styling.
+* [ x] Navigation Styles: Use the `navigation.less` file for styling.
 
-* [ ] Main Content Styles: Use the `home-page.less` file for styling
+* [ x] Main Content Styles: Use the `home-page.less` file for styling
 
-* [ ] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
+* [ x] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
 
-* [ ] LESS Parametric Mixin: create a parametric mixin that is used to create the `sign up` button styles.
+* [ x] LESS Parametric Mixin: create a parametric mixin that is used to create the `sign up` button styles.
 
-* [ ]  Use at least 2 parameters to create your button
+* [ x]  Use at least 2 parameters to create your button
 
-* [ ] Create a hover state that swaps the background color and font color of the base button styles.
+* [ x] Create a hover state that swaps the background color and font color of the base button styles.
 
 ### Mobile Design
 
